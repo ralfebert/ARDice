@@ -88,9 +88,9 @@ struct RealityKitView: UIViewRepresentable {
             )
 
             // Create a plane below the Dice
-            let box = MeshResource.generateBox(width: 2, height: 0.001, depth: 2)
-            let material = SimpleMaterial(color: .white, isMetallic: false)
-            let planeEntity = ModelEntity(mesh: box, materials: [material])
+            let planeMesh = MeshResource.generatePlane(width: 2, depth: 2)
+            let material = SimpleMaterial(color: .init(white: 1.0, alpha: 0.1), isMetallic: false)
+            let planeEntity = ModelEntity(mesh: planeMesh, materials: [material])
             planeEntity.position = focusEntity.position
             planeEntity.physicsBody = PhysicsBodyComponent(massProperties: .default, material: nil, mode: .static)
             planeEntity.collision = CollisionComponent(shapes: [.generateBox(width: 2, height: 0.001, depth: 2)])

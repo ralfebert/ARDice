@@ -13,7 +13,7 @@
 		BFE15BF026FCD75F0096F21F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE15BEF26FCD75F0096F21F /* Preview Assets.xcassets */; };
 		BFE15BF926FCE69F0096F21F /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = BFE15BF826FCE69F0096F21F /* FocusEntity */; };
 		BFE15BFC26FCE91D0096F21F /* RealityFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE15BFB26FCE91D0096F21F /* RealityFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		BFE15BFE26FCEE460096F21F /* Dice.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BFE15BFD26FCEE460096F21F /* Dice.usdz */; };
+		BFE15C0226FD0D570096F21F /* Dice.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BFE15C0126FD0D570096F21F /* Dice.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +24,7 @@
 		BFE15BEF26FCD75F0096F21F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFE15BF626FCD7B00096F21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BFE15BFB26FCE91D0096F21F /* RealityFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealityFoundation.framework; path = System/Library/Frameworks/RealityFoundation.framework; sourceTree = SDKROOT; };
-		BFE15BFD26FCEE460096F21F /* Dice.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Dice.usdz; path = ../../../../../../../../Users/ralf/Downloads/Dice.usdz; sourceTree = "<group>"; };
+		BFE15C0126FD0D570096F21F /* Dice.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Dice.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 				BFE15BE826FCD75D0096F21F /* RealDiceApp.swift */,
 				BFE15BEA26FCD75D0096F21F /* ContentView.swift */,
 				BFE15BEC26FCD75F0096F21F /* Assets.xcassets */,
-				BFE15BFD26FCEE460096F21F /* Dice.usdz */,
+				BFE15C0126FD0D570096F21F /* Dice.usdz */,
 				BFE15BEE26FCD75F0096F21F /* Preview Content */,
 			);
 			path = RealDice;
@@ -152,7 +152,7 @@
 			files = (
 				BFE15BF026FCD75F0096F21F /* Preview Assets.xcassets in Resources */,
 				BFE15BED26FCD75F0096F21F /* Assets.xcassets in Resources */,
-				BFE15BFE26FCEE460096F21F /* Dice.usdz in Resources */,
+				BFE15C0226FD0D570096F21F /* Dice.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
