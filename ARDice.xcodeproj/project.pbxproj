@@ -7,124 +7,113 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BFE15BE926FCD75D0096F21F /* RealDiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE15BE826FCD75D0096F21F /* RealDiceApp.swift */; };
-		BFE15BEB26FCD75D0096F21F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE15BEA26FCD75D0096F21F /* ContentView.swift */; };
-		BFE15BED26FCD75F0096F21F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE15BEC26FCD75F0096F21F /* Assets.xcassets */; };
-		BFE15BF026FCD75F0096F21F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE15BEF26FCD75F0096F21F /* Preview Assets.xcassets */; };
-		BFE15BF926FCE69F0096F21F /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = BFE15BF826FCE69F0096F21F /* FocusEntity */; };
-		BFE15BFC26FCE91D0096F21F /* RealityFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE15BFB26FCE91D0096F21F /* RealityFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		BFE15C0226FD0D570096F21F /* Dice.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BFE15C0126FD0D570096F21F /* Dice.usdz */; };
+		BFB0DB45274845F700C59BD0 /* ARDiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB0DB44274845F700C59BD0 /* ARDiceApp.swift */; };
+		BFB0DB47274845F700C59BD0 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB0DB46274845F700C59BD0 /* DiceView.swift */; };
+		BFB0DB49274845F800C59BD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB0DB48274845F800C59BD0 /* Assets.xcassets */; };
+		BFB0DB4C274845F800C59BD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB0DB4B274845F800C59BD0 /* Preview Assets.xcassets */; };
+		BFB0DB532748460A00C59BD0 /* RealityKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB0DB522748460A00C59BD0 /* RealityKitView.swift */; };
+		BFB0DB5627484D7000C59BD0 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = BFB0DB5527484D7000C59BD0 /* FocusEntity */; };
+		BFB0DB582748506A00C59BD0 /* Dice.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BFB0DB572748506A00C59BD0 /* Dice.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BFE15BE526FCD75D0096F21F /* RealDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFE15BE826FCD75D0096F21F /* RealDiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealDiceApp.swift; sourceTree = "<group>"; };
-		BFE15BEA26FCD75D0096F21F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		BFE15BEC26FCD75F0096F21F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BFE15BEF26FCD75F0096F21F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BFE15BF626FCD7B00096F21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		BFE15BFB26FCE91D0096F21F /* RealityFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealityFoundation.framework; path = System/Library/Frameworks/RealityFoundation.framework; sourceTree = SDKROOT; };
-		BFE15C0126FD0D570096F21F /* Dice.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Dice.usdz; sourceTree = "<group>"; };
+		BFB0DB41274845F700C59BD0 /* ARDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB0DB44274845F700C59BD0 /* ARDiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDiceApp.swift; sourceTree = "<group>"; };
+		BFB0DB46274845F700C59BD0 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
+		BFB0DB48274845F800C59BD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFB0DB4B274845F800C59BD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFB0DB522748460A00C59BD0 /* RealityKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityKitView.swift; sourceTree = "<group>"; };
+		BFB0DB572748506A00C59BD0 /* Dice.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Dice.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BFE15BE226FCD75D0096F21F /* Frameworks */ = {
+		BFB0DB3E274845F700C59BD0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFE15BFC26FCE91D0096F21F /* RealityFoundation.framework in Frameworks */,
-				BFE15BF926FCE69F0096F21F /* FocusEntity in Frameworks */,
+				BFB0DB5627484D7000C59BD0 /* FocusEntity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BFE15BDC26FCD75D0096F21F = {
+		BFB0DB38274845F700C59BD0 = {
 			isa = PBXGroup;
 			children = (
-				BFE15BE726FCD75D0096F21F /* RealDice */,
-				BFE15BE626FCD75D0096F21F /* Products */,
-				BFE15BFA26FCE91D0096F21F /* Frameworks */,
+				BFB0DB43274845F700C59BD0 /* ARDice */,
+				BFB0DB42274845F700C59BD0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BFE15BE626FCD75D0096F21F /* Products */ = {
+		BFB0DB42274845F700C59BD0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BFE15BE526FCD75D0096F21F /* RealDice.app */,
+				BFB0DB41274845F700C59BD0 /* ARDice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BFE15BE726FCD75D0096F21F /* RealDice */ = {
+		BFB0DB43274845F700C59BD0 /* ARDice */ = {
 			isa = PBXGroup;
 			children = (
-				BFE15BF626FCD7B00096F21F /* Info.plist */,
-				BFE15BE826FCD75D0096F21F /* RealDiceApp.swift */,
-				BFE15BEA26FCD75D0096F21F /* ContentView.swift */,
-				BFE15BEC26FCD75F0096F21F /* Assets.xcassets */,
-				BFE15C0126FD0D570096F21F /* Dice.usdz */,
-				BFE15BEE26FCD75F0096F21F /* Preview Content */,
+				BFB0DB44274845F700C59BD0 /* ARDiceApp.swift */,
+				BFB0DB46274845F700C59BD0 /* DiceView.swift */,
+				BFB0DB48274845F800C59BD0 /* Assets.xcassets */,
+				BFB0DB4A274845F800C59BD0 /* Preview Content */,
+				BFB0DB522748460A00C59BD0 /* RealityKitView.swift */,
+				BFB0DB572748506A00C59BD0 /* Dice.usdz */,
 			);
-			path = RealDice;
+			path = ARDice;
 			sourceTree = "<group>";
 		};
-		BFE15BEE26FCD75F0096F21F /* Preview Content */ = {
+		BFB0DB4A274845F800C59BD0 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				BFE15BEF26FCD75F0096F21F /* Preview Assets.xcassets */,
+				BFB0DB4B274845F800C59BD0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		BFE15BFA26FCE91D0096F21F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BFE15BFB26FCE91D0096F21F /* RealityFoundation.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BFE15BE426FCD75D0096F21F /* RealDice */ = {
+		BFB0DB40274845F700C59BD0 /* ARDice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFE15BF326FCD75F0096F21F /* Build configuration list for PBXNativeTarget "RealDice" */;
+			buildConfigurationList = BFB0DB4F274845F800C59BD0 /* Build configuration list for PBXNativeTarget "ARDice" */;
 			buildPhases = (
-				BFE15BE126FCD75D0096F21F /* Sources */,
-				BFE15BE226FCD75D0096F21F /* Frameworks */,
-				BFE15BE326FCD75D0096F21F /* Resources */,
+				BFB0DB3D274845F700C59BD0 /* Sources */,
+				BFB0DB3E274845F700C59BD0 /* Frameworks */,
+				BFB0DB3F274845F700C59BD0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RealDice;
+			name = ARDice;
 			packageProductDependencies = (
-				BFE15BF826FCE69F0096F21F /* FocusEntity */,
+				BFB0DB5527484D7000C59BD0 /* FocusEntity */,
 			);
-			productName = RealDice;
-			productReference = BFE15BE526FCD75D0096F21F /* RealDice.app */;
+			productName = ARDice;
+			productReference = BFB0DB41274845F700C59BD0 /* ARDice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BFE15BDD26FCD75D0096F21F /* Project object */ = {
+		BFB0DB39274845F700C59BD0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					BFE15BE426FCD75D0096F21F = {
-						CreatedOnToolsVersion = 13.0;
+					BFB0DB40274845F700C59BD0 = {
+						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = BFE15BE026FCD75D0096F21F /* Build configuration list for PBXProject "RealDice" */;
+			buildConfigurationList = BFB0DB3C274845F700C59BD0 /* Build configuration list for PBXProject "ARDice" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,46 +121,47 @@
 				en,
 				Base,
 			);
-			mainGroup = BFE15BDC26FCD75D0096F21F;
+			mainGroup = BFB0DB38274845F700C59BD0;
 			packageReferences = (
-				BFE15BF726FCE69F0096F21F /* XCRemoteSwiftPackageReference "FocusEntity" */,
+				BFB0DB5427484D7000C59BD0 /* XCRemoteSwiftPackageReference "FocusEntity" */,
 			);
-			productRefGroup = BFE15BE626FCD75D0096F21F /* Products */;
+			productRefGroup = BFB0DB42274845F700C59BD0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFE15BE426FCD75D0096F21F /* RealDice */,
+				BFB0DB40274845F700C59BD0 /* ARDice */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BFE15BE326FCD75D0096F21F /* Resources */ = {
+		BFB0DB3F274845F700C59BD0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFE15BF026FCD75F0096F21F /* Preview Assets.xcassets in Resources */,
-				BFE15BED26FCD75F0096F21F /* Assets.xcassets in Resources */,
-				BFE15C0226FD0D570096F21F /* Dice.usdz in Resources */,
+				BFB0DB4C274845F800C59BD0 /* Preview Assets.xcassets in Resources */,
+				BFB0DB49274845F800C59BD0 /* Assets.xcassets in Resources */,
+				BFB0DB582748506A00C59BD0 /* Dice.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BFE15BE126FCD75D0096F21F /* Sources */ = {
+		BFB0DB3D274845F700C59BD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFE15BEB26FCD75D0096F21F /* ContentView.swift in Sources */,
-				BFE15BE926FCD75D0096F21F /* RealDiceApp.swift in Sources */,
+				BFB0DB47274845F700C59BD0 /* DiceView.swift in Sources */,
+				BFB0DB45274845F700C59BD0 /* ARDiceApp.swift in Sources */,
+				BFB0DB532748460A00C59BD0 /* RealityKitView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		BFE15BF126FCD75F0096F21F /* Debug */ = {
+		BFB0DB4D274845F800C59BD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,7 +222,7 @@
 			};
 			name = Debug;
 		};
-		BFE15BF226FCD75F0096F21F /* Release */ = {
+		BFB0DB4E274845F800C59BD0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -287,31 +277,29 @@
 			};
 			name = Release;
 		};
-		BFE15BF426FCD75F0096F21F /* Debug */ = {
+		BFB0DB50274845F800C59BD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RealDice/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ARDice/Preview Content\"";
 				DEVELOPMENT_TEAM = R476D442DR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RealDice/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Augmented Reality";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.RealDice;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ARDice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -319,31 +307,29 @@
 			};
 			name = Debug;
 		};
-		BFE15BF526FCD75F0096F21F /* Release */ = {
+		BFB0DB51274845F800C59BD0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RealDice/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ARDice/Preview Content\"";
 				DEVELOPMENT_TEAM = R476D442DR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RealDice/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Augmented Reality";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.RealDice;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ARDice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -354,20 +340,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BFE15BE026FCD75D0096F21F /* Build configuration list for PBXProject "RealDice" */ = {
+		BFB0DB3C274845F700C59BD0 /* Build configuration list for PBXProject "ARDice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFE15BF126FCD75F0096F21F /* Debug */,
-				BFE15BF226FCD75F0096F21F /* Release */,
+				BFB0DB4D274845F800C59BD0 /* Debug */,
+				BFB0DB4E274845F800C59BD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFE15BF326FCD75F0096F21F /* Build configuration list for PBXNativeTarget "RealDice" */ = {
+		BFB0DB4F274845F800C59BD0 /* Build configuration list for PBXNativeTarget "ARDice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFE15BF426FCD75F0096F21F /* Debug */,
-				BFE15BF526FCD75F0096F21F /* Release */,
+				BFB0DB50274845F800C59BD0 /* Debug */,
+				BFB0DB51274845F800C59BD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -375,23 +361,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		BFE15BF726FCE69F0096F21F /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+		BFB0DB5427484D7000C59BD0 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/maxxfrazer/FocusEntity.git";
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		BFE15BF826FCE69F0096F21F /* FocusEntity */ = {
+		BFB0DB5527484D7000C59BD0 /* FocusEntity */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = BFE15BF726FCE69F0096F21F /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			package = BFB0DB5427484D7000C59BD0 /* XCRemoteSwiftPackageReference "FocusEntity" */;
 			productName = FocusEntity;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = BFE15BDD26FCD75D0096F21F /* Project object */;
+	rootObject = BFB0DB39274845F700C59BD0 /* Project object */;
 }

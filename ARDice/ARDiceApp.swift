@@ -1,10 +1,10 @@
 import SwiftUI
 
 @main
-struct RealDiceApp: App {
+struct ARDiceApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DiceView()
         }
     }
 }
